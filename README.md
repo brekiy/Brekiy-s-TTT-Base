@@ -10,4 +10,4 @@ The focus is on the base that the guns use. This new base is mostly derived from
 
 - There is now an accuracy penalty for moving and jumping. A hard cap on the weapon spread keeps things from going all over the place and not all weapons behave the same when moving.
 - There is now an accuracy bonus for crouching.
-- 
+- The recoil of all guns was lowered and the amount that they change the aim vector was lowered in addition. It is now easier to control weapons when fully automatic.
