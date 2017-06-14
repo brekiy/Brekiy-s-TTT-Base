@@ -1,0 +1,11 @@
+{
+	"title"		:	"TTT MB Weps",
+	"type"		:	"weapon",
+	"tags"		:	[ "realism" ],
+	"ignore"	:
+	[
+		"*.psd",
+		"*.vcproj",
+		"*.svn*"
+	]
+}
