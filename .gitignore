@@ -1,4 +1,8 @@
 *
+!.gitignore
+!LICENSE
+!README.md
 !/lua/weapons/weapon_ttt_brekiy_base.lua
 !/lua/weapons/weapon_ttt_glock.lua
 !/lua/weapons/weapon_zm_shotgun.lua
+!*/
