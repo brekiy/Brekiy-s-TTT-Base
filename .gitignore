@@ -1,10 +1,4 @@
-/materials
-/sound
-/models
-/particles
-/addon.json
-/image.jpg
-/lua/autorun
-/effects
-/entities
-/weapons/weapon_ttt_jihad.lua
+*
+!/lua/weapons/weapon_ttt_brekiy_base.lua
+!/lua/weapons/weapon_ttt_glock.lua
+!/lua/weapons/weapon_zm_shotgun.lua
