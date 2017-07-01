@@ -13,7 +13,7 @@ SWEP.HoldType = "revolver"
 SWEP.Primary.Ammo = "AlyxGun"
 SWEP.Primary.Delay = 0.3
 SWEP.Primary.Recoil = 6
-SWEP.Primary.Cone = 0.016
+SWEP.Primary.Cone = 0.012
 SWEP.Primary.Damage = 55
 SWEP.Primary.Automatic = false
 SWEP.Primary.ClipSize = 6
@@ -22,7 +22,7 @@ SWEP.Primary.DefaultClip = 6
 SWEP.Primary.Sound = Sound("Weapon_DetRev.Single")
 SWEP.HeadshotMultiplier = 2
 SWEP.CrouchBonus 				 	= 0.7
-SWEP.MovePenalty			 	 	= 2
+SWEP.MovePenalty			 	 	= 1.7
 SWEP.JumpPenalty			 	 	= 3
 SWEP.MaxCone 					 	= 0.06
 

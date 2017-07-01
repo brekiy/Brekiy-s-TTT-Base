@@ -36,7 +36,7 @@ SWEP.Base = "weapon_ttt_brekiy_base"
 
 SWEP.Primary.Damage      = 9
 SWEP.Primary.Delay       = 0.11
-SWEP.Primary.Cone        = 0.015
+SWEP.Primary.Cone        = 0.009
 SWEP.Primary.ClipSize    = 30
 SWEP.Primary.ClipMax     = 60
 SWEP.Primary.DefaultClip = 30

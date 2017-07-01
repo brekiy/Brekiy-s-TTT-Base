@@ -12,9 +12,9 @@ SWEP.HoldType = "smg"
 
 SWEP.Primary.Ammo = "SMG1"
 SWEP.Primary.Delay = 0.066
-SWEP.Primary.Recoil = 0.85
-SWEP.Primary.Cone = 0.018
-SWEP.Primary.Damage = 9
+SWEP.Primary.Recoil = 1
+SWEP.Primary.Cone = 0.0115
+SWEP.Primary.Damage = 11
 SWEP.Primary.Automatic = true
 SWEP.Primary.ClipSize = 50
 SWEP.Primary.ClipMax = 100
@@ -25,7 +25,7 @@ SWEP.HeadshotMultiplier = 2
 SWEP.CrouchBonus 				 	= 0.7
 SWEP.MovePenalty			 	 	= 1.3
 SWEP.JumpPenalty			 	 	= 2
-SWEP.MaxCone 					 	= 0.06
+SWEP.MaxCone 					 	= 0.05
 
 SWEP.UseHands = true
 SWEP.ViewModelFlip = false

@@ -54,19 +54,13 @@ SWEP.Secondary.Ammo         = "none"
 SWEP.Secondary.ClipMax      = -1
 --SWEP.ShellLoad 				 = false
 
--- Moving inaccuracy related parameters.
--- Multiplier on gun spread when crouching. Lower is better.
 SWEP.CrouchBonus 				 = 0.7
--- Modifies gun spread when moving. Formula is 
--- cone + ((MovePenalty / 100) * PlayerVelocity * cone). Lower is better.
 SWEP.MovePenalty			 	 = 2
--- Multiplier on gun spread when jumping. Lower is better.
 SWEP.JumpPenalty			 	 = 3
--- Maximum inaccuracy allowed for the gun.
 SWEP.MaxCone 					 = 0.06
 
 --SWEP.Penetration 						= 0
---work on this later, currently does not fire the penetrated bullet correctly
+--work on this later
 --[[ function SWEP:BulletPenetrate(hitNum, attacker, tr, dmginfo)
 	print("BulletPenetrate funct")
 	print("hitNum: ", hitNum, "penetration power: ", self.Penetration)
@@ -196,7 +190,7 @@ function SWEP:ShootBullet( dmg, recoil, numbul, cone )
       recoil = sights and (recoil * 0.6) or recoil
 
       local eyeang = self.Owner:EyeAngles()
-      eyeang.pitch = eyeang.pitch - (math.Rand(0.25, 0.3) * recoil)
+      eyeang.pitch = eyeang.pitch - (math.Rand(0.25, 0.5) * recoil)
 		eyeang.yaw = eyeang.yaw - (math.Rand(-0.05, 0.1) * recoil)
       self.Owner:SetEyeAngles(eyeang)
    end

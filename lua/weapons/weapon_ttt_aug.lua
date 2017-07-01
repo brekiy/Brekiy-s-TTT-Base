@@ -12,9 +12,9 @@ SWEP.HoldType = "ar2"
 
 SWEP.Primary.Ammo 				= "SMG1"
 SWEP.Primary.Delay 				= 0.12
-SWEP.Primary.Recoil 				= 1.15
-SWEP.Primary.Cone 				= 0.0035
-SWEP.Primary.Damage 				= 17
+SWEP.Primary.Recoil 				= 1.3
+SWEP.Primary.Cone 				= 0.0055
+SWEP.Primary.Damage 				= 18
 SWEP.Primary.Automatic 			= true
 SWEP.Primary.ClipSize 			= 30
 SWEP.Primary.ClipMax 			= 60
@@ -23,9 +23,9 @@ SWEP.Primary.Sound 				= Sound( "Weapon_aug.shot" )
 SWEP.Secondary.Sound 			= Sound( "Default.Zoom" )
 SWEP.HeadshotMultiplier 		= 2.5
 SWEP.CrouchBonus 				 	= 0.7
-SWEP.MovePenalty			 	 	= 2
-SWEP.JumpPenalty			 	 	= 3
-SWEP.MaxCone 					 	= 0.06
+SWEP.MovePenalty			 	 	= 4
+SWEP.JumpPenalty			 	 	= 4.5
+SWEP.MaxCone 					 	= 0.07
 
 SWEP.UseHands = true
 SWEP.ViewModelFlip = false

@@ -19,7 +19,7 @@ SWEP.Primary.Recoil    = 7
 SWEP.Primary.Automatic = false
 SWEP.Primary.Ammo = "357"
 SWEP.Primary.Damage = 55
-SWEP.Primary.Cone = 0.024
+SWEP.Primary.Cone = 0.013
 SWEP.Primary.ClipSize = 10
 SWEP.Primary.ClipMax = 20
 SWEP.Primary.DefaultClip = 10
@@ -61,7 +61,7 @@ end
 function SWEP:GetPrimaryCone()
    local cone = self.Primary.Cone or 0.2
    -- accuracy bonus when sighting
-   return self:GetIronsights() and (cone * 0.05) or cone
+   return self:GetIronsights() and (cone * 0.1) or cone
 end
 
 -- Add some zoom to ironsights for this gun

@@ -28,14 +28,14 @@ SWEP.WeaponID = AMMO_BULLDOZER
 SWEP.AllowDrop = false
 
 SWEP.Primary.Ammo = "Buckshot"
-SWEP.Primary.Damage = 8
-SWEP.Primary.Cone = 0.035
+SWEP.Primary.Damage = 9
+SWEP.Primary.Cone = 0.0385
 SWEP.Primary.Delay = 0.28
 SWEP.Primary.ClipSize = 7
 SWEP.Primary.ClipMax = 21
 SWEP.Primary.DefaultClip = 7
 SWEP.Primary.Automatic = true
-SWEP.Primary.NumShots = 9
+SWEP.Primary.NumShots = 8
 SWEP.AutoSpawnable      = false
 SWEP.AmmoEnt = "item_box_buckshot_ttt"
 SWEP.HeadshotMultiplier = 2

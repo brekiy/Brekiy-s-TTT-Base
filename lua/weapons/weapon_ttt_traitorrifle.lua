@@ -19,7 +19,7 @@ SWEP.HoldType = "ar2"
 SWEP.Primary.Ammo = "357"
 SWEP.Primary.Delay = 1.5
 SWEP.Primary.Recoil = 4
-SWEP.Primary.Cone = 0.001
+SWEP.Primary.Cone = 0.013
 SWEP.Primary.Damage = 55
 SWEP.Primary.Automatic = false
 SWEP.Primary.ClipSize = 10
@@ -60,6 +60,12 @@ if CLIENT then
       type = "item_weapon",
       desc = "Silenced scout."
    };
+end
+
+function SWEP:GetPrimaryCone()
+   local cone = self.Primary.Cone or 0.2
+   -- accuracy bonus when sighting
+   return self:GetIronsights() and (cone * 0.1) or cone
 end
 
 function SWEP:SetZoom(state)

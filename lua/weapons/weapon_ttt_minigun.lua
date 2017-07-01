@@ -26,7 +26,7 @@ SWEP.IsSilent = false
 SWEP.NoSights = true
 SWEP.Kind = WEAPON_EQUIP1
 
-SWEP.Primary.Delay	   = 0.075
+SWEP.Primary.Delay	   = 0.08
 SWEP.Primary.Recoil	  = 0.5
 SWEP.Primary.Automatic   = true
 SWEP.ViewModelFOV  = 50
@@ -46,7 +46,7 @@ SWEP.CanBuy = { ROLE_TRAITOR }
 SWEP.LimitedStock = true
 
 SWEP.Primary.Damage	  = 15
-SWEP.Primary.Cone	= 0.019
+SWEP.Primary.Cone	= 0.014
 SWEP.Primary.NumShots = 0
 
 SWEP.IronSightsPos = Vector(-3.80, 1.00, 2.00)
@@ -130,7 +130,7 @@ function SWEP:PrimaryAttack(worldsnd)
 		self:TakePrimaryAmmo( 1 )
 		
 		if not IsValid(self.Owner) or self.Owner:IsNPC() or (not self.Owner.ViewPunch) then return end
-		self.Owner:ViewPunch( Angle( math.Rand(-0.2,-0.1) * self.Primary.Recoil, math.Rand(-0.1,0.1) *self.Primary.Recoil, 0 ) )
+		self.Owner:ViewPunch( Angle( math.Rand(-0.15,-0.1) * self.Primary.Recoil, math.Rand(-0.05,0.05) *self.Primary.Recoil, 0 ) )
 		
 		if SERVER then
 			self.Owner:LagCompensation(false)

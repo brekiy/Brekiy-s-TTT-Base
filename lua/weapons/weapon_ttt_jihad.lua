@@ -75,6 +75,6 @@ if CLIENT then
    -- Text shown in the equip menu
    SWEP.EquipMenuData = {
       type = "Weapon",
-      desc = "Go out with a bang and take those filthy innocents with you."
+      desc = "Sacrifice yourself to Allah.\n\nYour 72 virgins await."
    }
 end

@@ -22,9 +22,9 @@ SWEP.Primary.Automatic = false
 SWEP.Primary.Damage	= 3
 SWEP.HeadshotMultiplier = 2
 SWEP.Primary.NumShots = 24
-SWEP.Primary.Cone = 0.0425
+SWEP.Primary.Cone = 0.0415
 SWEP.Primary.Delay = 0.8
-SWEP.Primary.Recoil	= 6
+SWEP.Primary.Recoil	= 9
 
 SWEP.Primary.ClipSize = 3
 SWEP.Primary.ClipMax = 20
